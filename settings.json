@@ -1,0 +1,64 @@
+{
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "Ø"
+            ],
+            "after": [
+                ":"
+            ]
+        },
+        {
+            "before": [
+                "ø"
+            ],
+            "after": [
+                ";"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "workbench.view.explorer",
+                "workbench.files.action.showActiveFileInExplorer"
+            ]
+        },
+        {
+            "before": [
+                "<C-h>"
+            ],
+            "commands": [
+                "workbench.action.openEditorAtIndex1",
+            ]
+        },
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "commands": [
+                "workbench.action.openEditorAtIndex2",
+            ]
+        },
+        {
+            "before": [
+                "<C-k>"
+            ],
+            "commands": [
+                "workbench.action.openEditorAtIndex3",
+            ]
+        },
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "commands": [
+                "workbench.action.openEditorAtIndex4",
+            ]
+        },
+    ],
+    "vim.useSystemClipboard": true,
+}
